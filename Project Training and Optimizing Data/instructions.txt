@@ -1,0 +1,14 @@
+﻿Testing different Data Augmentation techniques:
+* To test the different types of data augmentation techniques there are different train_transforms provided on lines 47 - 97]
+* Whichever one you pick set it equal to train_transform
+
+
+Changing Optimizers and Learning Rate:
+* Uncomment the line 154 to try the Adam optimizer and set the learning rate parameter (lr) to what you want to test it. 
+* Then call the trainWithAdam function using the optimizer as shown in line 169. Make sure to comment other lines that are training the data to not cause issues
+
+
+Using L1 Regularization:
+* Comment out calls to any training methods and uncomment the line 163 with a call to L1RegularizationTrain to test
+Using L2 Regularization:
+* Comment out calls to any other training methods and uncomment the line 164 with a call to L2RegularizationTrain to test

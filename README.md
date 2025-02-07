@@ -1,2 +1,2 @@
 # ML-AI
-Machine Learning/AI projects
+Machine Learning/AI projects for classes.
